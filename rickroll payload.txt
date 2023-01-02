@@ -1,0 +1,23 @@
+REM rickroll payload
+REM target: Win10 with chrome and unblocked internet connection
+REM adjust delays as necessary
+
+DELAY 3000
+
+REM Uncomment for max volume
+REM CONTROL ESCAPE
+REM DELAY 500
+REM STRING volume
+REM DELAY 500
+REM ENTER
+REM DELAY 500
+REM UP
+REM REPEAT 100
+
+CONTROL ESCAPE
+DELAY 500
+STRING chrome https://www.youtube.com/watch?v=h2H8VlyZEu8
+DELAY 100
+ENTER
+DELAY 3000
+STRING f
