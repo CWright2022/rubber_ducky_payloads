@@ -1,23 +1,23 @@
-REM rickroll payload
-REM target: Win10 with chrome and unblocked internet connection
-REM adjust delays as necessary
-
-DELAY 3000
-
-REM Uncomment for max volume
-REM CONTROL ESCAPE
-REM DELAY 500
-REM STRING volume
-REM DELAY 500
-REM ENTER
-REM DELAY 500
-REM UP
-REM REPEAT 100
+REM rick rolls the target (full volume warning)
+REM target: windows 10 with internet
+REM by Cayden Wright
 
 CONTROL ESCAPE
 DELAY 500
-STRING chrome https://www.youtube.com/watch?v=h2H8VlyZEu8
-DELAY 100
+STRING volume
+DELAY 500
+ENTER
+DELAY 500
+DEFAULTDELAY 25
+UP
+REPEAT 100
+ALT F4
+
+GUI r
+DELAY 500
+STRING chrome --fullscreen https://www.youtube.com/watch?v=uHgt8giw1LY
+DELAY 500
 ENTER
 DELAY 3000
 STRING f
+DELAY 500
